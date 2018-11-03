@@ -5,9 +5,11 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import HttpTool from '@/pulign/http.js'
 import '@/assets/css/index.css'
 
 Vue.use(ElementUI)
+Vue.use(HttpTool)
 
 Vue.config.productionTip = false
 
